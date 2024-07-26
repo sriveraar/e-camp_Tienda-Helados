@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Ingese su nombre">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" placeholder="Ingrese su apellido">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Ingrese su email">
+
+        <label for="servicio">Seleccione un servicio:</label>
+        <select name="" id="servicio">
+            <option value="0">Seleccione su preparación...</option>
+            <option value="1">Preparado de helados de chocolate</option>
+            <option value="2">Preparado de helados de fresa</option>
+            <option value="3">Preparado de helados de vainilla</option>
+        </select>
+
+        <label for="mensaje">Extras para tu servicio</label>
+        <textarea name="" id="mensaje"></textarea>
+
+        <label>Pago al contado <input type="radio" value="cont" name="tipo_pago"></label>
+        <label>Pago con tarjeta <input type="radio" value="tar" name="tipo_pago"></label>
+    </form>
+</body>
+</html>
